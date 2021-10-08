@@ -10,4 +10,4 @@ license = "CC-PDDC"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-slice_n = { path = "../slice_n" }
+slice_n = "0.0.2"
