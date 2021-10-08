@@ -10,8 +10,4 @@ license = "CC-PDDC"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-either = { version = "1.6.1", features = [] }
-maybe-std = "0.1.2"
 slice_n = { path = "../slice_n" }
-wrapper = "0.1.1"
-arbitrary = { git = "https://github.com/AljoschaMeyer/arbitrary", optional = true, features = ["derive"] }
