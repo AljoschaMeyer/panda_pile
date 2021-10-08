@@ -1,7 +1,11 @@
 [package]
-name = "panda_experiments"
+name = "panda_pile"
+description = "Traits for lazily producing and consuming sequences."
+repository = "https://github.com/AljoschaMeyer/panda_pile"
 version = "0.1.0"
+authors = ["Aljoscha Meyer <mail@aljoscha-meyer.de>"]
 edition = "2021"
+license = "CC-PDDC"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
