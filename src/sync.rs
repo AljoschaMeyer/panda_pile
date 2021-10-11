@@ -105,7 +105,7 @@ pub trait BulkProducer: Producer where Self::Repeated: Copy {
     /// Returns a nonempty buffer from which items can be taken, or the last sequence item if it has been reached.
     ///
     /// This method must be compatible with [`Self::produce`](Producer::produce): when returning a slice of length `n`, the next `n` calls to [`Self::produce`](Producer::produce) have to return those `n` items.
-    fn producer_slots(&self) -> SequenceState<&Slice1<Self::Repeated>, Self::Last>;
+    fn producer_slots(&mut self) -> SequenceState<&Slice1<Self::Repeated>, Self::Last>;
 
     /// Tells the [`BulkProducer`](BulkProducer) that some number of items has been taken from it.
     ///
