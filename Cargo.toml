@@ -2,7 +2,7 @@
 name = "panda_pile"
 description = "Traits for lazily producing and consuming sequences."
 repository = "https://github.com/AljoschaMeyer/panda_pile"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Aljoscha Meyer <mail@aljoscha-meyer.de>"]
 edition = "2021"
 license = "CC-PDDC"
